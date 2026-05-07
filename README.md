@@ -1,16 +1,16 @@
-House Price Prediction App
+## House Price Prediction App
 
 A Streamlit-based machine learning web application that predicts house sale prices using property features such as living area, 
 quality, garage size, bathrooms, and more.
 
-Features
+## Features
 
 * Interactive Streamlit UI
 * Real-time house price prediction
 * Machine learning model integration
 * User-friendly input controls
 
-Technologies Used
+## Technologies Used
 
 * Python
 * Streamlit
@@ -18,12 +18,13 @@ Technologies Used
 * NumPy
 * Scikit-learn
 
-Project Structure
+## Project Structure
+├── AsmesHousing.csv
 ├── app.py
-├── model.pkl
-├── requirements.txt
+├── House_Price.ipynb
+├── House_Price_Model.pkl
 └── README.md
 
-Author
+## Author
 
 Hasina Aslam
