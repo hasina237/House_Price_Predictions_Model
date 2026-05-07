@@ -9,7 +9,7 @@ import joblib
 # ---------------------------
 st.set_page_config(page_title="House Price Predictor", layout="wide")
 
-st.title("🏡 Advanced House Price Prediction App")
+st.title("Advanced House Price Prediction App")
 st.markdown("Enter house features to predict the sale price.")
 
 # LOAD MODEL (replace with your model path)
@@ -19,7 +19,7 @@ model = joblib.load('House_Price_Model.pkl')
 # ---------------------------
 # FEATURE INPUTS
 # ---------------------------
-st.sidebar.header("📊 Input Features")
+st.sidebar.header("Input Features")
 
 def user_input_features():
     Gr_Liv_Area = st.sidebar.slider("Ground Living Area", 300, 5000, 1500)
@@ -85,13 +85,13 @@ input_df = user_input_features()
 # ---------------------------
 # DISPLAY INPUT DATA
 # ---------------------------
-st.subheader("📌 Input Summary")
+st.subheader("Input Summary")
 st.write(input_df)
 
 # ---------------------------
 # PREDICTION
 # ---------------------------
-st.subheader("🔮 Prediction")
+st.subheader("Prediction")
 
 if st.button("Predict House Price"):
     if model is not None:
@@ -104,5 +104,5 @@ if st.button("Predict House Price"):
 # OPTIONAL INSIGHTS SECTION
 # ---------------------------
 st.markdown("---")
-st.subheader("📊 Tips")
+st.subheader("Tips")
 st.info("Higher Overall Quality, Living Area, and Garage Size strongly increase price prediction accuracy.")
