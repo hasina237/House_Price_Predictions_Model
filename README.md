@@ -19,11 +19,11 @@ quality, garage size, bathrooms, and more.
 * Scikit-learn
 
 ## Project Structure
-├── AsmesHousing.csv
-├── app.py
-├── House_Price.ipynb
-├── House_Price_Model.pkl
-└── README.md
+├─ AsmesHousing.csv
+├─ app.py
+├─ House_Price.ipynb
+├─ House_Price_Model.pkl
+└─ README.md
 
 ## Author
 
